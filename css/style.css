@@ -1,0 +1,72 @@
+body{
+   font-family: "Lato";
+   color: #424551;
+   background: #E5E5E5;
+}
+
+[class*="__conteiner"]{
+   max-width: 1230px;
+   margin: 0 auto;
+}
+.page__tittle {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 26px;
+   color: rgb(43, 209, 35);
+   background:#D0F0E4;
+}
+.page__image {
+   text-align: center;
+   margin-bottom: 60px;
+   background-image: radial-gradient(ellipse at center, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+}
+.page__image img{
+   max-width: 100%;
+   border: 5px double black;
+}
+.page__main-text {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+   margin-bottom: 24px;
+   background-image: url('../img/2.webp');
+   border-radius: 10px;
+}
+.page__text {
+   line-height: 160%;
+   margin-bottom: 48px;
+   outline: 2px dashed green;
+}
+.page__text p{
+   margin-bottom: 22px;
+   background-image: url(../img/3.jpg);
+}
+.page__text ul{
+   margin-bottom: 24px;
+}
+.page__text li{
+   margin-bottom: 4px;
+   padding-left: 32px;
+   background: url('../img/icons/check.svg') 0 6px no-repeat;
+}
+.page__blockquote {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+   margin-bottom: 48px;
+   background: url('../img/icons/braces.svg') 0 0 no-repeat, greenyellow;
+   padding-left:  58px;
+}
+ul {
+   background-image: url(../img/4.jpg);
+   background-repeat:repeat-x;
+   box-shadow: 5px 5px yellow;
+}
+.last__text {
+   background: radial-gradient(ellipse at center, rgba(255,197,120,1) 0%,rgba(251,157,35,1) 100%) 0 0 /50% no-repeat, url(../img/5.jpg) 100%;
+   margin-bottom: 25px;
+}
